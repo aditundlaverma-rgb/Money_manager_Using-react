@@ -35,8 +35,8 @@ const Dashboard = () => {
     )
     const balance=income-expense-savings;
   return (
-    <div>
-      <Top
+    <div >
+      <Top 
       income={income}
       expense={expense}
       savings={savings}
